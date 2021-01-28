@@ -20,7 +20,7 @@ html{
     padding: 0px;
     margin: 0px;
     justify-content: center;
-    width: 100%;
+    max-width: 930px;
 }
   
   .contenant{
@@ -139,7 +139,7 @@ html{
     border:none;
     cursor: pointer;
     font-size: 16px;
-    width: 35%;
+    width: 80%;
     margin: 16px;
     height: 45px;
     }
@@ -287,8 +287,8 @@ html{
   }
     
     p{
-      margin: 5px 0px;
-      font-size: 15px;
+      margin: 5px;
+      font-size: 12px;
     }
 
   
@@ -578,7 +578,7 @@ html{
   /*images*/
   
   .img-mariage{
-    background-image: url(../images/mariage.jpg);
+    background-image: url(../images/deco-blanche-nuit.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -587,8 +587,9 @@ html{
     justify-content: flex-end;
     align-items: baseline;
     flex-direction: column;
-  
-  }
+    border-radius: 40px;
+   
+}
   
   .img-tenue{
     background-image: url(../images/tenues.jpg);
@@ -632,7 +633,7 @@ html{
        display: flex;
        flex-direction: column;
        margin: 5px;
-       width: 100%;
+       width: 90%;
        height: 300px;
    }   
 
@@ -810,5 +811,9 @@ html{
 
     .card{
         width: 40%;
+    }
+
+    .button{
+      width: 60%;
     }
 }
