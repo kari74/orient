@@ -574,6 +574,10 @@ html{
       -webkit-animation: icon_cercle 3s ease-out;
     }
   
+    .resauxsociaux{
+      display: flex;
+      justify-content: center;
+    }
   
   /*images*/
   
